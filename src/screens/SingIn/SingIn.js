@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, ImageBackground} from 'react-native';
-import ButtonLogin from '../../Components/ButtonLogin';
+import ButtonLogin from '../../Components/ButtonLogin/ButtonLogin';
 
 import styles from './Styles'
 
@@ -8,7 +8,6 @@ const image = {uri:'https://i.pinimg.com/564x/ac/59/db/ac59dbf7ba91ef293c8c8e15a
 
 const SingIn = () => {
     return(
-           
            
                 <View style={styles.container}> 
                  <ImageBackground source={image} resizeMode='cover' style={styles.backgroundStyle}>

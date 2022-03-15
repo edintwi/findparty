@@ -3,6 +3,8 @@ import {useFonts} from 'expo-font';
 import AppLoading from 'expo-app-loading';
 import {Ranga_400Regular} from '@expo-google-fonts/ranga'
 import SingIn from './src/screens/SingIn/SingIn';
+import Home from './src/screens/Home/Home';
+
 
 
 export default function App() {
@@ -15,6 +17,6 @@ export default function App() {
     return <AppLoading/>
   }
     return (
-      <SingIn/>
+      <Home/>
     );
 }
