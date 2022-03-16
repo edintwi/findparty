@@ -3,12 +3,12 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'column',
+        alignItems: 'center',
+        width: 403,
+        height:100,
     },
     postContainer:{
-        marginLeft: 5,
-        marginRight: -10,
         borderTopWidth: 1,
-        borderBottomWidth: 1,
         borderColor: '#C4C4C4',
         width: 403,
         height:100,
@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         backgroundColor: '#C4C4C4',
         marginRight: 5,
+        marginLeft: 10
     },
     statusPost:{
         flexDirection: 'row',
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
         marginLeft: 5,
     },
     postTime:{
-        marginLeft: 40
+        marginLeft: 30
     },
     postLocation:{
         marginRight: 20

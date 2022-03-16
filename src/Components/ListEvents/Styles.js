@@ -21,6 +21,8 @@ styles = StyleSheet.create({
         fontSize: 24,
         marginTop: 20,
         marginLeft: 5,
+        marginTop: 30,
+        fontFamily: 'Poppins_600SemiBold'
     },
 })
 

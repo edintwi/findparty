@@ -6,7 +6,8 @@ const styles = StyleSheet.create({
     },
     PrefTitle:{
         fontSize: 24,
-        marginTop: 5
+        marginTop: 5,
+        fontFamily: 'Poppins_600SemiBold'
     },
     scrollPrefEvents:{
         flexDirection: 'row',
@@ -15,16 +16,23 @@ const styles = StyleSheet.create({
     },
     preftOptions:{
         marginRight: 5,
-        backgroundColor: '#000000',
-        width: 64,
-        height: 54,
+
+        width: 102,
+        height: 129,
         borderRadius: 10,
-        justifyContent: 'center'
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     textPrefs:{
         fontSize: 14,
         color: '#FFFFFF',
-        textAlign: 'center'
+        textAlign: 'center',
+        paddingTop: 10,
+        fontFamily: 'Poppins_700Bold'
+    },
+    iconPrefs:{
+        width: 63,
+        height: 63
     }
 });
 

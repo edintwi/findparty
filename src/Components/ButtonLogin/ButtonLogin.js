@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, Image, StatusBar} from 'react-native';
+import {View, Text, TouchableOpacity, Image} from 'react-native';
 import styles from './Styles';
 
 import AppleIcon from '../../../assets/apple-icon.png'
@@ -18,7 +18,7 @@ const ButtonLogin = ({text, icon = 0}) => {
 
     return (
         <TouchableOpacity>
-            <StatusBar barStyle="light-content" />
+            
              <View style = {styles.container}>
                 <View style = {styles.ImgButton} >
                     <Image source = {icon} style = {styles.img}></Image>
