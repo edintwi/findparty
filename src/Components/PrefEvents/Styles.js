@@ -3,6 +3,7 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'column',
+        
     },
     PrefTitle:{
         fontSize: 24,
@@ -21,7 +22,8 @@ const styles = StyleSheet.create({
         height: 129,
         borderRadius: 10,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        
     },
     textPrefs:{
         fontSize: 14,

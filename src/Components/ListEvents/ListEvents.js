@@ -5,7 +5,7 @@ import styles from './Styles';
 const ListEvents = () =>{
     return (
         <View >
-            <Text style={styles.textEvents}>Perto de Você</Text>
+            <Text style={styles.textEvents}>Perto De Você</Text>
         <View>
             <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={styles.enventsContainer}>
                <TouchableOpacity>

@@ -1,14 +1,10 @@
 import React from 'react';
-
 import {useFonts} from 'expo-font';
 import AppLoading from 'expo-app-loading';
-import {Ranga_400Regular} from '@expo-google-fonts/ranga'
-import {Poppins_700Bold, Poppins_600SemiBold} from '@expo-google-fonts/poppins'
-import SingIn from './src/screens/SingIn/SingIn';
-import Home from './src/screens/Home/Home';
+import {Ranga_400Regular} from '@expo-google-fonts/ranga';
+import {Poppins_700Bold, Poppins_600SemiBold} from '@expo-google-fonts/poppins';
 
-
-
+import { Routes } from './src/routes';
 
 export default function App() {
   
@@ -23,7 +19,6 @@ export default function App() {
     return <AppLoading/>
   }
     return (
-      
-      <Home/>
+        <Routes/>
     );
 }

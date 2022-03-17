@@ -4,13 +4,13 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'column',
         alignItems: 'center',
-        width: 403,
+        width: '100%',
         height:100,
     },
     postContainer:{
         borderTopWidth: 1,
         borderColor: '#C4C4C4',
-        width: 403,
+        width: '100%',
         height:100,
         
     },
@@ -32,11 +32,12 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         backgroundColor: '#C4C4C4',
         marginRight: 5,
-        marginLeft: 10
+        marginLeft: 5,
     },
     statusPost:{
         flexDirection: 'row',
         marginTop: 15,
+        
     },
     postIcon:{
         width:20,
@@ -45,10 +46,10 @@ const styles = StyleSheet.create({
         marginLeft: 5,
     },
     postTime:{
-        marginLeft: 30
+        paddingLeft: 10
     },
     postLocation:{
-        marginRight: 20
+        marginRight: 10
     },
     postContent:{
         marginTop: 5,

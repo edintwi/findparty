@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
         marginBottom: '2%',
         
         
+        
     },
     iconContainer: {
         marginLeft: 30,

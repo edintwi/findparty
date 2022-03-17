@@ -3,10 +3,10 @@ import {View, Text, ScrollView} from 'react-native';
 import styles from './Styles';
 
 
-import ListEvents from '../../Components/ListEvents/ListEvents';
-import PrefEvents from '../../Components/PrefEvents/PrefEvents';
-import Feed from '../../Components/Feed/Feed';
-import Menu from '../../Components/Menu/Menu';
+import ListEvents from '../../components/ListEvents/ListEvents';
+import PrefEvents from '../../components/PrefEvents/PrefEvents';
+import Feed from '../../components/Feed/Feed';
+import Menu from '../../components/Menu/Menu';
 
 const Home = () => {
     return(

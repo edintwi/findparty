@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {View, Text, TouchableOpacity, Image} from 'react-native';
 import styles from './Styles';
 
@@ -7,7 +8,7 @@ import GoogleIcon from '../../../assets/google-icon.png';
 import NewIcon from '../../../assets/new-icon.png';
 
 const ButtonLogin = ({text, icon = 0}) => {
-
+    
     if(icon == 1){
         icon = AppleIcon;
     }else if(icon == 2){
@@ -17,15 +18,11 @@ const ButtonLogin = ({text, icon = 0}) => {
     }
 
     return (
-        <TouchableOpacity>
-            
-             <View style = {styles.container}>
+        <TouchableOpacity style = {styles.container}>
                 <View style = {styles.ImgButton} >
                     <Image source = {icon} style = {styles.img}></Image>
-                </View>
-                     
+                </View> 
                 <Text style = {styles.TextButtonLogin}> {text} </Text>
-            </View>
         </TouchableOpacity> 
     );
 };
