@@ -6,9 +6,8 @@ const styles = StyleSheet.create({
         height: '100%',
         backgroundColor: '#EEEEEE',
     },
-    textLogo:{
-        fontFamily: 'Ranga_400Regular',
-        fontSize: 240
+    logo:{
+      color: '#000000',
     },
     formRegister:{
         justifyContent: 'center',
@@ -17,17 +16,21 @@ const styles = StyleSheet.create({
         height: '100%',
     },
     inputRegister:{
-        borderWidth: 1,
-        borderColor: '#C4C4C4',
+        backgroundColor: 'white',
+        opacity: 0.50,
         borderRadius: 5,
-        width: 200,
+        borderWidth: 1,
+        borderColor: '#c4c4c4',
+        width: 215,
         height: 50,
-        marginBottom:20,
+        textAlign: 'left',
+        padding: 10,
+        fontFamily: 'Poppins_600SemiBold'
 
     },
     labelRegister:{
         fontFamily: 'Poppins_600SemiBold',
-        marginRight: 150
+        color: 'black',
     },
     labelForm:{
         fontFamily: 'Poppins_600SemiBold',
