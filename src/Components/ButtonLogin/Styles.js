@@ -10,6 +10,8 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         padding: 5,
         marginBottom: 5,
+        borderWidth: 1,
+        borderColor: '#C4C4C4',
        
     },
     TextButtonLogin: {
